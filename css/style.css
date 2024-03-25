@@ -16,16 +16,17 @@ body {
     justify-content: center;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
 .main-container {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+.navlist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 /*******************                  Fonts                 *******************/
@@ -117,7 +118,6 @@ a {
     display: flex;
     gap: 20px;
     height: 100%;
-    list-style: none;
 }
 
 .header-navbar a {
@@ -207,7 +207,6 @@ a {
     display: flex;
     align-items: center;
     gap: 20px;
-    list-style: none;
 }
 
 .search-filters>ul>li {
@@ -384,7 +383,6 @@ a {
 }
 
 .footer-section>nav>ul>li {
-    list-style: none;
     padding-top: 0.8rem;
 }
 
